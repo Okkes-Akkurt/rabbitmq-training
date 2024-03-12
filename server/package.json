@@ -1,10 +1,13 @@
 {
   "name": "server",
+  "type": "module",
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
   "scripts": {
-    "start": "nodemon app.js"
+    "start": "nodemon app.js",
+    "consume":"node consumer.js",
+    "publish":"node publisher.js"
   },
   "keywords": [],
   "author": "",
